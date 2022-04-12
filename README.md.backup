@@ -480,7 +480,7 @@ while True:
 
 In this case like this, where there are multiple reason to end the loop, it is often cleaner to break out from several different locations, rather than try to specify all the termination conditions in the loop header.
 
-Infinite loops can be vary useful. Just remember that you must ensure the loop gets broken out of at some point, so it doesn't truly become infinite.
+Infinite loops can be vary useful. Just remember that you must ensure the loop gets broken out of at some point
 
 
 ## Python 'for' Loops (Definite Iteration)
