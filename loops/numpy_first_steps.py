@@ -76,3 +76,7 @@ while True:
         break
     print(a.pop(-1))
 
+# One-Line while Loops
+n = 5
+while n > 0: n -= 1; print(n)
+

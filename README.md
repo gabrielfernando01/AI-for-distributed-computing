@@ -482,5 +482,36 @@ In this case like this, where there are multiple reason to end the loop, it is o
 
 Infinite loops can be vary useful. Just remember that you must ensure the loop gets broken out of at some point, so it doesn't truly become infinite.
 
+## One-Line while Loops
 
-## Python 'for' Loops (Definite Iteration)
+As with an if statement, a while loop can be specified on one line. If there are multiple statements in the block that makes up the loop body, they can be separated by semicolons(;):
+
+```
+n > 5
+while n > 0: n -= 1 ; print(n)
+```
+
+This only works whith simple statements though. You can't combine two compound statements into one line. Thus, you can specify a while loop all on one line as above, and you write an if statement on one line:
+
+```
+if True: print('foo')
+```
+
+But you can't do this:
+
+```
+>>> while n > 0: n -=1; if True: print('foo')
+SyntaxisError: invalid syntax 
+```
+
+Remember that PEP 8 discourages multiple statemnets on one line. So you probably shouldn't be doing any of this very often anyhow.
+
+## Coclusion
+
+In this tutorial, you learned about **indefinite iteration** using the Python while loop. You're now able to:
+
+- Construct basic and complex while loops
+- Interrupt loop execution whith break and continue
+- Use the else clause with a while loop
+- Deal with infinite loops
+
