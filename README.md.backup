@@ -29,6 +29,8 @@ The usual approach taken by most programming languages is to define a syntactic 
 
 ### Python: It's All About the Indentation
 
+![](img align='center' https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/if.gif)
+
 Python follows a convention known as the off side rule, a term coined by British computer scientist Peter J.Landin. (The term is taken from the offside law in association football.) Languages that adhere to the off side rule define blocks by identation. Python is one of a relatively small set of [off side rule languages](https://en.wikipedia.org/wiki/Off-side_rule#Off-side_rule_languages).
 
 Consider the script file foo.py
@@ -52,5 +54,69 @@ IPython command prompt
 ```
 [46]: %run foo.py
 After conditional
+```
+
+Blocks can be nested to arbitrary depth. Each indent defines a new block, and each outdent ends the preceding block. The resulting structure is straightforward, consistent, and intuitive.
+
+Here is a more complicated script file called block.py
+
+```
+# Does line execute?							Yes		No
+#											---		---		
+if 'foo' in ['foo', 'bar', 'baz']:			# x
+	print('Outer condition is true')			# x
+	
+	if 10 > 20:								# x
+		print('Inner conditioon 1')			#		 x
+		
+	print('Between inner conditions')			# x
+	
+	if 10 < 20:								# x
+		print('Inner condition 2')			# x
+		
+	print('End of outer condition')			# x
+print('After outer condition')				# x
+```
+
+The output generated when this script is run is shown below:
+
+***
+IPython Qtconsole
+***
+
+```
+In [23]: %run block.py
+Outer condition is true
+Between inner conditions
+Inner condition 2
+After outer condition
+```
+
+## The else and elif Clauses
+
+Now you know how to use an if statement to conditionally execute a single statement or a block of several statements. It's time to find out what else you can do.
+
+Sometimes, you want to evaluate a condition and take one path if it is true but specify an alternative path it is not. This is accomplished with an else clause:
+
+```
+if <expr>:
+	<statement(s)>
+else:
+	<statemet(s)>
+```
+
+If 'expr' is true, the first suite is executed, and the second is skipped. If 'expr' is false, the first suite is skipped and the second is executed. Either way, execution then resumes after the second suite. Both suites are defined by indentetion, as described above.
+
+In this example, x is less than 50, so the first suite (the first two prints) are excecuted, and the second suite (two last prints) are skipped:
+
+```
+x = 20
+
+if x < 50:
+	print('(first suite)')
+	print('x is small')
+else:
+	print('(second suite)')
+	print('x is large')
 ```
 
