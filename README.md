@@ -29,7 +29,7 @@ The usual approach taken by most programming languages is to define a syntactic 
 
 ### Python: It's All About the Indentation
 
-![](img align='center' https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/if.gif)
+![](align="center" https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/if.gif)
 
 Python follows a convention known as the off side rule, a term coined by British computer scientist Peter J.Landin. (The term is taken from the offside law in association football.) Languages that adhere to the off side rule define blocks by identation. Python is one of a relatively small set of [off side rule languages](https://en.wikipedia.org/wiki/Off-side_rule#Off-side_rule_languages).
 
