@@ -43,6 +43,8 @@ if 'foo' in ['bar', 'baz', 'qux']:
 print('After conditional')
 ```
 
+![](https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/if.gif)
+
 Running foo.py produces this output:
 
 ***
