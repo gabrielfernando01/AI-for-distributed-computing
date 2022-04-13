@@ -17,3 +17,12 @@ else:
     print('(second suite)')
     print('x is large')
     
+# In the other hand
+x = 120
+
+if x < 50:
+    print('(first suite)')
+    print('x is smile')
+else:
+    print('(second suite)')
+    print('x is large')

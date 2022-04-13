@@ -29,7 +29,7 @@ The usual approach taken by most programming languages is to define a syntactic 
 
 ### Python: It's All About the Indentation
 
-![](align="center" https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/if.gif)
+![](https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/if.gif)
 
 Python follows a convention known as the off side rule, a term coined by British computer scientist Peter J.Landin. (The term is taken from the offside law in association football.) Languages that adhere to the off side rule define blocks by identation. Python is one of a relatively small set of [off side rule languages](https://en.wikipedia.org/wiki/Off-side_rule#Off-side_rule_languages).
 
@@ -113,6 +113,19 @@ In this example, x is less than 50, so the first suite (the first two prints) ar
 x = 20
 
 if x < 50:
+	print('(first suite)')
+	print('x is small')
+else:
+	print('(second suite)')
+	print('x is large')
+```
+
+Here, on the other hand, x is greater than 50, so the first suite is passed over, and the second suite executed:
+
+```
+x = 120
+
+if x < 50
 	print('(first suite)')
 	print('x is small')
 else:

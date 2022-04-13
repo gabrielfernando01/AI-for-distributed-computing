@@ -1,23 +1,3 @@
-![](https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/header.png)
-
-# NumPy Tutorial: You first steps into Data Science in Python
-
-NumPy is a Python library that provide a simple yet powerful data structure: the **n-dimensional array**.
-
-**In this tutorial you'll learn**
-
-- What **core concepts** in data science are made possible by NumPy
-- How to create **NumPy arrays** using varios methods
-- How to manipulate NumPy arrays to perform **useful calculations**
-- How to apply these new skills to **real-world problems**
-
-Let's start by referring to two extremely important and necessary tools:
-
-- Python 'while' Loops (Idefinite Iteration)
-- Python 'for' Loops (Definite Iteration)
-
-![](https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/while.png)
-
 ## Python 'while' Loops (Indefinite Iteration)
 
 **Iteration** means executing the same block of code over and over, potentially many times. A programming structute that implements iteration is called a **loop.**
