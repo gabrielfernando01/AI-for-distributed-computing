@@ -61,27 +61,26 @@ Blocks can be nested to arbitrary depth. Each indent defines a new block, and ea
 Here is a more complicated script file called block.py
 
 ```
-# Does line execute?							Yes		No
-#											---		---		
-if 'foo' in ['foo', 'bar', 'baz']:			# x
-	print('Outer condition is true')			# x
+# Does line execute?
+if 'foo' in ['foo', 'bar', 'baz']:
+	print('Outer condition is true')
 	
-	if 10 > 20:								# x
-		print('Inner conditioon 1')			#		 x
+	if 10 > 20:
+		print('Inner conditioon 1')
 		
-	print('Between inner conditions')			# x
+	print('Between inner conditions')
 	
-	if 10 < 20:								# x
-		print('Inner condition 2')			# x
-		
-	print('End of outer condition')			# x
-print('After outer condition')				# x
+	if 10 < 20:
+		print('Inner condition 2')
+
+	print('End of outer condition')
+print('After outer condition')
 ```
 
 The output generated when this script is run is shown below:
 
 ***
-IPython Qtconsole
+IPython command prompt
 ***
 
 ```
