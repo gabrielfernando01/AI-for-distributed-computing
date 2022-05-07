@@ -9,4 +9,4 @@ Este repositorio no es un proyecto como tal, es un blog para referenciar las est
 <p><em>Link: <a href="https://realpython.com/">Real Python</a></br>
 </em></p>
 
-En la otra carpeta _basics_
+En otra carpeta llamada _basics_ contiene ficheros cortos con bloques de código sencillos para aprender las principales _operadores booleanos y de comparación,_ así como las principales _sentencias de control_ en Python.
