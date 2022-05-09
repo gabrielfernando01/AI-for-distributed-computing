@@ -1,5 +1,34 @@
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/header_python.png)
 
+# list Python - Listas en Python: El tipo list y operaciones más comunes.
+
+La clase list en Python es una de las más utilizadas por su naturaleza, dinamismo, fácil manejo y potencia.
+
+## ¿Qué es una lista?
+
+Las listas en Python son un tipo **contenedor,** compuesto, que **se usan para almacenar conjuntos de elementos relacionados** que no necesariamente tienen que ser del mismo tipo. 
+
+Junto a las clases _tuple, range_ y _str,_ **son uno de los tipos de secuencia en Python,** con la particularidad de que son _mutables._ Esto último quiere decir que su contenido se puede modificar después de haber sido creada.
+
+Para crear una lista en Python, simplemente hay que encerrar una secuencia de elementos por comas entre paréntesis cuadrados [].
+
+Las listas también se pueden crear usando el constructor de la clase, list(iterable). El objeto _iterable_ puede ser o una secuencia, un contenedor que soporte la iteración o un objeto iterador.
+
+## Añadir elementos a una lista en Python
+
+Las listas son elementos mutables, es decir, sus elementos pueden ser modificados (se pueden añadir nuevos items, actualizar o eliminar).
+
+## Modificar elementos de una lista.
+
+Es posible modificar un elemento de una lista en Python con el operador de asignación =. Para ello, lo único que necesitamos conocer es el índice del elemento que quieres modificar o el rango de índices.
+
+
+
+# dict Python - Diccionarios en Python: El tipo diccionario y operaciones más comunes.
+
+
+
+
 # Operadores en Python
 
 Los ejemplos de este tema están en el fichero: operators.py
@@ -90,4 +119,29 @@ Aquí, condición puede ser un literal, el valor de una variable, el resultado d
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/multiples.gif)
 
+## Bucle while en Python
 
+Un ejemplo típico del uso del bucle while es: Comprobar si existe un elemento en una secuencia.
+
+***
+**¡Nota!:** El ejemplo ocupado en while.py es solo un ejemplo para hacer notar como funciona la sentencia while. La manera más eficiente de comprobar si un elemento pertenece a una lisa es con el operador in.
+***
+
+## Bucle while ... else ...
+
+Al igual que ocurre con el bucle for, podemos alterar el flujo de ejecución del bucle while con las sentencias break y continue:
+
+- break se utiliza para finalizar y salir del bucle, por ejemplo, si cumple una condición.
+- Por su parte, continue salta al siguiente paso de la iteración, ignorando todas las sentencias que le siguen y que forman parte del bucle.
+
+# for en Python
+
+El ciclo for se utiliza para recorrer los elementos de un objeto _iterable_ (lista, tupla, conjunto, diccionario,...) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cual se puede aplicar una serie de operaciones.
+
+## ¿Que es un iterable?
+
+Un _iterable_ es un objeto que permite recorrer sus elementos uno a uno. Para ser más técnico, un objeto iterable es aquél que puede pasarse como parámetro de la función iter().
+
+## Bucle for en diccionarios
+
+Un caso en especial de bucle for se da al recorrer los elementos de un diccionario. Dado que un diccionario está compuesto por pares clave/valor, hay distintas formas de iterar sobre ellas.
