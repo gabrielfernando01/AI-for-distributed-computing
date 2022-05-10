@@ -77,3 +77,53 @@ vowels = list('aeiou')
 del vowels[2]
 vowels
 
+# Eliminar los elementos con índices 2 y 3.
+vowels = list['aeiou']
+del vowels[2:4]
+vowels
+
+# Eliminar todos los elementos
+vowels = list['aeiou']
+del vowels[2:4]
+vowels
+
+# Elimina la primera ocurrencia del carácter e
+letters = list('kvfesd')
+letters.remove('e')
+letters
+
+# Obtiene y elimina el último elemento
+letters.pop()
+letters
+
+# Eliminar todos los elementos de una lista a través del método clear():
+letters = ['a', 'b', 'c']
+letters.clear()
+letters
+
+# Devolver el número de elementos de una lista:
+vowels = list('aeiou')
+len(vowels)
+
+# Saber si un elemento se encuentra dentro de una lista
+vowels = list('aeiou')
+if 'a' in vowels:
+    print('a is in vowels')
+
+if 'b' not in vowels:
+    print('b not is in vowels')
+
+# Lista desordenada de números enteros
+numbers = list('8343847')
+
+# Identidad del objeto número 
+id(numbers)
+
+# Se llama al método sort() para ordenar los elementos de la lista
+numbers.sort()
+numbers
+
+# Se comprueba que la identidad del objeto numbers es la misma
+id(numbers)
+
+

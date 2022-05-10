@@ -22,10 +22,23 @@ Las listas son elementos mutables, es decir, sus elementos pueden ser modificado
 
 Es posible modificar un elemento de una lista en Python con el operador de asignación =. Para ello, lo único que necesitamos conocer es el índice del elemento que quieres modificar o el rango de índices.
 
+## Eliminar elementos de una lista
 
+Además de la sentencia del, podemos usar el método remove() y pop([i]). remove() elimina la primera ocurrencia que se encuentre del elemento en una lista. Por su parte, pop([i]) obtiene el elemento cuyo indice sea igual a i y lo elimina de la lista. Si no se especifica ningún índice, recuperara y elimina el último elemento.
+
+## sort list Python
+
+Las listas son secuencias ordenadas. Esto quiere decir que sus elementos siempre se devuelven en el mismo orden en que fueron añadidos.
+
+No obstante, es posible ordenar los elementos de una lista con el método sort(). El método sort() ordena los elementos de la lista utilizando únicamente el operador < y modifica la lista actual (no se obtine una lista nueva).
+
+## Listado de métodos de la clase list  
+
+La lista completa de métodos de la clase list.
+
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/list.png)
 
 # dict Python - Diccionarios en Python: El tipo diccionario y operaciones más comunes.
-
 
 
 
