@@ -21,7 +21,10 @@ next(it)
 # En Python, los tipos principales: list, tuple, dict, set o string entre
 # otros, son iterables, por lo que podrán ser usados en el bucle for.
 
-# Bucle en diccionarios.
+# Un diccionario está compuesto por pares clave/valor.
+values = {'A': 4, 'E': 3, 'I': 1, 'O': 0}
+for k in values:
+    print(k)
 
 
 
