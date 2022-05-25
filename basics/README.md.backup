@@ -10,7 +10,12 @@ Las listas en Python son un tipo **contenedor,** compuesto, que **se usan para a
 
 Junto a las clases _tuple, range_ y _str,_ **son uno de los tipos de secuencia en Python,** con la particularidad de que son _mutables._ Esto último quiere decir que su contenido se puede modificar después de haber sido creada.
 
-Para crear una lista en Python, simplemente hay que encerrar una secuencia de elementos por comas entre paréntesis cuadrados [].
+- Para crear una lista en Python, simplemente hay que encerrar una secuencia de elementos por comas entre paréntesis cuadrados [].
+- Por ejemplo para crear una lista del 1 al 10 escribimos:
+
+```
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 
 Las listas también se pueden crear usando el constructor de la clase, list(iterable). El objeto _iterable_ puede ser o una secuencia, un contenedor que soporte la iteración o un objeto iterador.
 

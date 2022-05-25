@@ -36,7 +36,7 @@ letters [1:6:3] # Elementos del 1 al 5 de 3 en 3
 # for list Python
 colors = ['blue', 'red', 'orange']
 for color in colors:
-    print(color)
+    print(colors)
 
 # Para añadir un nuevo elemento a una lista se utiliza el método append()
 # y para añadir varios elementos, el método extend()
