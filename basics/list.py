@@ -5,7 +5,7 @@ lista = [1, ['a', 'e', 'i', 'o', 'u'], 8.9, 'hola']
 # El tipo str también es un tipo secuencia. Si pasamos un string al 
 # constructor list() creará una lista cuyos elementos son cada uno de 
 # los caracteres de la cadena:
-vowels = list['aeiou']
+vowels = list('aeiou')
 vowels
 
 # Dos alternativas para crear listas vacias:

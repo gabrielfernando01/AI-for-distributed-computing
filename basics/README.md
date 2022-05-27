@@ -19,9 +19,21 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 Las listas también se pueden crear usando el constructor de la clase, list(iterable). El objeto _iterable_ puede ser o una secuencia, un contenedor que soporte la iteración o un objeto iterador.
 
-## Añadir elementos a una lista en Python
+***
+## Añadir elementos a una lista en Python, metodo append() y extend().
 
 Las listas son elementos mutables, es decir, sus elementos pueden ser modificados (se pueden añadir nuevos items, actualizar o eliminar).
+
+Para añadir un nuevo elemento a una lista se utiliza el método $append()$ y para añadir varios elementos, el método extend():
+
+```
+vowels = ['a']
+vowels.append('e')				# Añade un elemento
+vowels
+
+vowels.extend(['i', 'o', 'u'])	# Añade un grupo de elementos
+vowels
+```
 
 ## Modificar elementos de una lista.
 
@@ -71,7 +83,7 @@ IMPORTANTE: Las operaciones **and** **or** y **not** realmente no devuelven **Tr
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/aritmeticos.png)
 
-## Operadores a niverl bits
+## Operadores a nivel bits
 
 Los operadores a nivel bit actúan sobre los operandos como si fueran una cadena de digitos binarios. Como su nombre lo indica, actúan sobre los operandos bit a bit. Son los siguientes.
 
@@ -106,6 +118,17 @@ Los operadores de identidad se utilizan para comprobar si dos variables son, o n
 ***
 
 # Python if - Sentencia if de control de flujo.
+
+## Pytho if - Sentencia básica
+
+La estructura básica de esta sentencia if es la siguiente:
+
+```
+if condicion:
+	bloque de código
+```
+
+Es decir, solo si la $condición$ se evalúa a $True$, se ejecutarán las sentencias que forman parte de $bloque de código$. En caso de que se evalúe a $False$ no se ejecutará ninguna sentencia perteneciente a $bloque de código$.
 
 ***
 **¡Importante!:** El cuerpo del bloque está indicado con un sangrado mayor. Dicho bloque termina cuando se encuentre la primera línea con un sangrado menor.
