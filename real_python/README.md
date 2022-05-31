@@ -12,7 +12,7 @@ We'll start by looking at the most basic type of if statement. In its simplest f
 
 ```
 if <expr>:
-	<statement>
+    <statement>
 ```
 
 In the form shown above:
@@ -36,10 +36,11 @@ Consider the script file foo.py
 
 ```
 if 'foo' in ['bar', 'baz', 'qux']:
-	print('Expression was true')
-	print('Executing statement in suite')
-	print('...')
-	print('Done')
+    print('Expresion was true')
+    print('Executing statement in suite')
+    print('...')
+    print('Done')
+
 print('After conditional')
 ```
 
@@ -61,17 +62,18 @@ Here is a more complicated script file called block.py
 ```
 # Does line execute?
 if 'foo' in ['foo', 'bar', 'baz']:
-	print('Outer condition is true')
-	
-	if 10 > 20:
-		print('Inner conditioon 1')
-		
-	print('Between inner conditions')
-	
-	if 10 < 20:
-		print('Inner condition 2')
+    print('Outer condition is true')
 
-	print('End of outer condition')
+    if 10 > 20:
+        print('Inner condition 1')
+
+    print('Between inner conditions')
+
+    if 10 < 20:
+        print('Inner condition 2')
+
+    print('End of outer condition')
+
 print('After outer condition')
 ```
 
@@ -110,7 +112,7 @@ In this example, x is less than 50, so the first suite (the first two prints) ar
 x = 20
 
 if x < 50:
-	print('(first suite)')
+    print('(first suite)')
 	print('x is small')
 else:
 	print('(second suite)')
@@ -122,8 +124,8 @@ Here, on the other hand, x is greater than 50, so the first suite is passed over
 ```
 x = 120
 
-if x < 50
-	print('(first suite)')
+if x < 50:
+    print('(first suite)')
 	print('x is small')
 else:
 	print('(second suite)')
