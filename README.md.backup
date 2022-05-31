@@ -2,11 +2,11 @@
 
 # Conceptos básicos en Python
 
-Este repositorio no es un proyecto como tal, es un blog para referenciar las estructuras básicas para programar en python, contiene una carpeta llamada real python, que no es otra cosa mas que presentarte una de las páginas con el universo de posibilidades en lenguaje python, el link te lo comparto:
+Este repositorio no es un proyecto como tal, es un blog para referenciar las estructuras básicas para programar en python, contiene una carpeta llamada real python, que te presenta una de las páginas con el universo de posibilidades en lenguaje python, el link te lo comparto:
 
 <img align='right' src=https://files.realpython.com/media/real-python-logo-square.28474fda9228.png width="230">
 
 <p><em>Link: <a href="https://realpython.com/">Real Python</a></br>
 </em></p>
 
-En otra carpeta llamada _basics_ contiene ficheros cortos con bloques de código sencillos para aprender las principales _operadores booleanos y de comparación,_ así como las principales sentencias de control en Python.
+La carpeta _basics_ contiene ficheros cortos con bloques de código sencillos para aprender las principales _operadores booleanos y de comparación,_ así como las principales _sentencias de control_ en Python.
