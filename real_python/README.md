@@ -2,7 +2,7 @@
 
 # Conditional Statements in Python
 
-Frequenly, a program needs to skip over some statements, executea series of statements repetitively, or choose between alternate sets of statements to execute.
+Frequenly, a program needs to skip over some statements, execute a series of statements repetitively, or choose between alternate sets of statements to execute.
 
 That is where **control structures** come in. A control structure directs the order of execution of the statements in a program(referred to as the program's flow).
 

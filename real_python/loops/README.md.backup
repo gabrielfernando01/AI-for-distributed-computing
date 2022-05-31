@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/gabrielfernando01/basic_in_python/master/real_python/image/while.png)
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/real_python/image/while.png)
 
 ## Python 'while' Loops (Indefinite Iteration)
 
@@ -32,7 +32,7 @@ while n > 0:
   print(n)
 ```
 
-![](https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/while.gif)
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/real_python/image/while.gif)
 
 Note that the controlling expression of the while loop es tested first, before anything else happens. If's false to start with, the loop boody will never be excecuted at all: 
 
@@ -62,7 +62,7 @@ Python provides two keywords that termite a loop iteration prematurale:
   
 The distinction between break and continue is demonstrated in the following diagram: 
 
-![](https://raw.githubusercontent.com/gabrielfernando01/numpy/master/image/diagram.png)
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/real_python/image/diagram.png)
 
 Here's script file called break.py that demostrates the break statement:
 
@@ -89,6 +89,7 @@ while n > 0
   print(n)
 print('Loop ended.'
 ```
+
 ### The else Clause
 
 Python allows an optional else clause at the end of a while loop. This is a unique feature of Python, not found in mosth other programming languages. The syntax is show below:
@@ -124,6 +125,7 @@ while n > 0:
 else:
   print('Loop done.')
 ```
+
 In this case, the loop repeated until the condition was exhausted: 'n' became 0, so n > 0 became false. Becase the loop lived out its natural life, so to speak, the else clause was executed. Now observe the difference here:
 
 ```
@@ -249,7 +251,7 @@ SyntaxisError: invalid syntax
 
 Remember that PEP 8 discourages multiple statemnets on one line. So you probably shouldn't be doing any of this very often anyhow.
 
-## Coclusion
+## Conclusion
 
 In this tutorial, you learned about **indefinite iteration** using the Python while loop. You're now able to:
 
