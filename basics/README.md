@@ -21,41 +21,13 @@ La útlima versión liberada proveniente de CWI fue Python 1.2. En 1995, van Ros
 
 En este tutorial te comparto la siguiente lista de tópicos:
 
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/operators_in_python" target="_PLANK">Operadores en Python</a>
-- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/list_in_python" target="_PLANK">Listas en Python</a>
-- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python" target="_PLANK">Diccionarios en Python</a>
-- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python" target="_PLANK">if en Python</a>
-- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python" target="_PLANK">while en Python</a>
+- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/operators_in_python">Operadores en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/list_in_python">Listas en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">Diccionarios en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/if_in_python">if en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">while en Python</a>
 
 
-# While Python 
-
-La sentencia o bucle while en Python es una sentencia de control de flujo que se utiliza para ejecutar un bloque de instrucciones de forma continua mientras se cumpla una condición determinada.
-
-Es decir, mientras 'condición' se evalúe a 'True', se ejecutarán las instrucciones y sentencias de 'bloque de código'.
-
-Aquí, condición puede ser un literal, el valor de una variable, el resultado de una expresión o el valor devuelto por una función.
-
-***
-**¡IMPORTANTE!:** El cuerpo del bloque while está indicado con una sangría mayor. Dicho bloque termina cuando se encuentre la primera línea con un sangrado menor.
-***
-
-![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/multiples.gif)
-
-## Bucle while en Python
-
-Un ejemplo típico del uso del bucle while es: Comprobar si existe un elemento en una secuencia.
-
-***
-**¡Nota!:** El ejemplo ocupado en while.py es solo un ejemplo para hacer notar como funciona la sentencia while. La manera más eficiente de comprobar si un elemento pertenece a una lisa es con el operador in.
-***
-
-## Bucle while ... else ...
-
-Al igual que ocurre con el bucle for, podemos alterar el flujo de ejecución del bucle while con las sentencias break y continue:
-
-- break se utiliza para finalizar y salir del bucle, por ejemplo, si cumple una condición.
-- Por su parte, continue salta al siguiente paso de la iteración, ignorando todas las sentencias que le siguen y que forman parte del bucle.
 
 # for en Python
 
