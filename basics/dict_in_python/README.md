@@ -23,15 +23,15 @@ Otras características a resaltar de los diccionarios:
 
 En Python hay varias formas de crear un diccionario. Las veremos a continuación.
 
-La más simple es capturar una secuencia de pares _clave: valor_ separados por comas entre llaves ${}$
+La más simple es capturar una secuencia de pares _clave: valor_ separados por comas entre llaves <code>{}</code>.
 
 ```
 >>> d = {1:'hola', 89:'Pyhonista', 'a': 'b', 'c':'27'}
 ```
 
-Para crear un diccionario vacío, simplemente asigna a una variable el valor ${}$.
+Para crear un diccionario vacío, simplemente asigna a una variable el valor <code>{}</code>.
 
-También se puede usar el constructor de la clase $dict()$ de varias maneras:
+También se puede usar el constructor de la clase <code>dict()</code> de varias maneras:
 
 - **Sin parámetros.** Esto creará un diccionario vacío.
 - Con pares _clave:valor_ dentro de llaves.
@@ -42,11 +42,11 @@ Los ejemplos de los casos anteriores te los comparto en el archivo: dict.py de e
 
 ## ¿Cómo acceder a los elementos de un diccionario en Python?
 
-Acceder a un elemento de un diccionario es una de las principales operaciones por las que existe este tipo de dato. El acceso a un valor se realiza mediante indexación de la clave. Para ello, simplemente captura entre corchetes la clave del elemento $d[clave]$. En caso de que la clave no exista, se lanzará la excepción $KeyError$.
+Acceder a un elemento de un diccionario es una de las principales operaciones por las que existe este tipo de dato. El acceso a un valor se realiza mediante indexación de la clave. Para ello, simplemente captura entre corchetes la clave del elemento <code>d[clave]</code>. En caso de que la clave no exista, se lanzará la excepción <code>KeyError</code>.
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/acceder_dict.png)
 
-La clase $dict$ también ofrece el método $get(clave[, valor por defecto]).$ Este método devuelve el valor correspondiente a la clave $clave$. En caso de que la clave no exista no lanza ningún error, sino que devuelve el segundo argumento $valor por defecto$. Si no se proporciona este argumento, se devuelve el valor $None$.
+La clase $dict$ también ofrece el método <code>get(clave[, valor por defecto])</code>. Este método devuelve el valor correspondiente a la clave <code>clave</code>. En caso de que la clave no exista no lanza ningún error, sino que devuelve el segundo argumento $valor por defecto$. Si no se proporciona este argumento, se devuelve el valor <code>None</code>.
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/get_dict.png)
 
@@ -62,11 +62,11 @@ Un caso en especial de bucle for se da al recorrer los elementos de un diccionar
 
 ### Añadir elementos a un diccionario en Python
 
-Como ya lo comentamos, la clase $dict$ es mutable, por lo que se puede añadir, modificar y/o eliminar elementos después de haber creado un objeto de este tipo.
+Como ya lo comentamos, la clase <code>dict</code> es mutable, por lo que se puede añadir, modificar y/o eliminar elementos después de haber creado un objeto de este tipo.
 
-Para añadir un nuevo elemento a un diccionario existente, se usa el operador asignación $=$. A la izquierda del operador aparece el objeto diccionario con la nueva clave entre corchetes $[]$ y a la derecha el valor que se asocia a dicha clave.
+Para añadir un nuevo elemento a un diccionario existente, se usa el operador asignación <code>=</code>. A la izquierda del operador aparece el objeto diccionario con la nueva clave entre corchetes <code>[]</code> y a la derecha el valor que se asocia a dicha clave.
 
-También existe el método $setdefault(clave[, valor])$. Este método devuelve el valor clave si ya existe, y en caso contrario, le asigna el valor que se pasa como segundo argumento. Si no se especifica este segundo argumento, por defecto es $None.$
+También existe el método <code>setdefault(clave[, valor])</code>. Este método devuelve el valor clave si ya existe, y en caso contrario, le asigna el valor que se pasa como segundo argumento. Si no se especifica este segundo argumento, por defecto es <code>None</code>.
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/setdefault.png)
 
@@ -87,10 +87,10 @@ Basta con asignar un nuevo valor a dicha clave del diccionario
 
 Los diversos modos de eliminar un elemento de un diccionario. Son los siguintes:
 
-- $pop(clave[, valor por defecto])$: Si la $clave$ está en el diccionario, elimina el elemento y devuelve su valor; si no, devuelve el _valor por defecto_. Si no proporciona el _valor por defecto_ y la _clave_ no está en el diccionario, se lanza la excepción $KeyError$
-- $popitem()$: Elimina el último par _clave:valor_ del diccionario y lo devuelve. Si el diccionario está vacío se lanza la excepción $KeyError$.
-- _del d[clave]_: Elimina el par $clave:valor$. Si no existe la clave, se lanza la excepción $KeyError$
-- $clear()$: Borra todos los pares $clave:valor$ del diccionario.
+- <code>pop(clave[, valor por defecto])</code>: Si la $clave$ está en el diccionario, elimina el elemento y devuelve su valor; si no, devuelve el _valor por defecto_. Si no proporciona el _valor por defecto_ y la _clave_ no está en el diccionario, se lanza la excepción $KeyError$
+- <code>popitem()</code>: Elimina el último par _clave:valor_ del diccionario y lo devuelve. Si el diccionario está vacío se lanza la excepción $KeyError$.
+- <code>del d[clave]</code>: Elimina el par $clave:valor$. Si no existe la clave, se lanza la excepción </code>KeyError</code>.
+- <code>clear()</code>: Borra todos los pares <code>clave:valor</code> del diccionario.
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/clear_dict.png)
 

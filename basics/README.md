@@ -25,7 +25,7 @@ En este tutorial te comparto la siguiente lista de tópicos:
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/list_in_python">Listas en Python</a>
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">Diccionarios en Python</a>
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/if_in_python">if en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">while en Python</a>
-- <a href="">for en Python</a>
+- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/while_in_python">while en Python</a>
+- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/for_in_python">for en Python</a>
 
 

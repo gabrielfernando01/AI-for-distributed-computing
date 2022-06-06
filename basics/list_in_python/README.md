@@ -64,7 +64,7 @@ negro
 
 Las listas son elementos mutables, es decir, sus elementos pueden ser modificados (se pueden añadir nuevos items, actualizar o eliminar).
 
-Para añadir un nuevo elemento a una lista se utiliza el método $append()$ y para añadir varios elementos, el método extend():
+Para añadir un nuevo elemento a una lista se utiliza el método <code>append()</code> y para añadir varios elementos, el método <code>extend()</code>:
 
 ```
 vowels = ['a']
@@ -77,7 +77,7 @@ vowels
 
 ## Modificar elementos de una lista.
 
-Es posible modificar un elemento de una lista en Python con el operador de asignación =. Para ello, lo único que necesitamos conocer es el índice del elemento que quieres modificar o el rango de índices:
+Es posible modificar un elemento de una lista en Python con el operador de asignación <code>=</code>. Para ello, lo único que necesitamos conocer es el índice del elemento que quieres modificar o el rango de índices:
 
 ```
 >>> vowels = list('oooou')
@@ -95,7 +95,7 @@ Es posible modificar un elemento de una lista en Python con el operador de asign
 
 ## Eliminar elementos de una lista
 
-Además de la sentencia $del$, podemos usar el método $remove()$ y $pop([i])$. $remove()$ elimina la primera ocurrencia que se encuentre del elemento en una lista. Por su parte, pop([i]) obtiene el elemento cuyo indice sea igual a i y lo elimina de la lista. Si no se especifica ningún índice, recuperara y elimina el último elemento.
+Además de la sentencia $del$, podemos usar el método <code>remove()</code> y <code>pop([i])</code>. <code>remove()</code> elimina la primera ocurrencia que se encuentre del elemento en una lista. Por su parte, <code>pop([i])</code> obtiene el elemento cuyo indice sea igual a <code>i</code> y lo elimina de la lista. Si no se especifica ningún índice, recuperara y elimina el último elemento.
 
 ```
 # Elimina el elemento i
@@ -124,7 +124,7 @@ letters = list('abkav')
 ['b', 'k', 'a']
 ```
 
-Es posible eliminar todos los elementos de una lista a través del método $clear()$
+Es posible eliminar todos los elementos de una lista a través del método <code>clear()</code>.
 
 ```
 >>> letters = ['a', 'b', 'c']
@@ -137,7 +137,7 @@ El código anterior es equivalente a <code>del letters[:]</code>
 
 ### Longitud (len) de una lista en Python
 
-Como cualquier tipo de secuencia, para conocer la longitud de una lista en Python se hace uso de la función $len()$. Esta función devuelve el número de elementos de una lista:
+Como cualquier tipo de secuencia, para conocer la longitud de una lista en Python se hace uso de la función <code>len()</code>. Esta función devuelve el número de elementos de una lista:
 
 ```
 >>> vowels = list('aeiou')
