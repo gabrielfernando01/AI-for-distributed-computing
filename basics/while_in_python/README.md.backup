@@ -32,9 +32,39 @@ En el siguiente gif te muestro como imprimir los primeros 10 múltiplos de <code
 
 Un ejemplo típico del uso del bucle while es: Comprobar si existe un elemento en una secuencia.
 
+Imagina que tienes la siguiente lista de valores <code>[5, 1, 9, 2, 7, 4]</code> y quieres saber si el número 2 está contenido en dicha lista. El código con la sentencia while es el siguiente:
+
+```
+valores = [5, 1, 9, 2, 7, 4]
+
+encontrado = False
+indice = 0
+longitud = len(valores)
+while not encontrado and indice < longitud:
+    valor = valores[indice]
+    if valor == 2:
+        encontrado = True
+    else:
+        indice += 1
+if encontrado:
+    print(f'El número 2 ha sido encontrado en el índice {indice}')
+else:
+    print('El número 2 no se encuentra en la lista de valores')
+```
+
+El anterior script lo guardo con el nombre: encontrar.py
+
+observemos que en el script anterior se utilizan 3 variables de control:
+
+- <code>encontrado</code>: Indica si el número 2 ha sido encontrado en la lista.
+- <code>indice</code>: Contiene el índice del elemento de la lista <code>valores</code> que va ser evaluado.
+- <code>longitud</code>: Indica el número de elemento de la lista <code>valores</code>.
+
 ***
-**¡Nota!:** El ejemplo ocupado en while.py es solo un ejemplo para hacer notar como funciona la sentencia while. La manera más eficiente de comprobar si un elemento pertenece a una lisa es con el operador in.
+**¡Nota!:** El ejemplo ocupado en while.py es solo un ejemplo para hacer notar como funciona la sentencia while. La manera más eficiente de comprobar si un elemento pertenece a una lisa es con el operador <code>in</code>.
 ***
+
+
 
 ## Bucle while ... else ...
 

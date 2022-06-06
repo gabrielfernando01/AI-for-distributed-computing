@@ -1,3 +1,4 @@
+# =====================================================================
 # Sentence while in Python
 while condition:
     block code
@@ -9,6 +10,7 @@ while n <= 10:
     n += 1
 print('End')
 
+# ======================================================================
 # Suppose we want to know if an element (7) is contained in a list.
 values = [6, 3, 2, 7, 1, 23]
 
@@ -26,6 +28,7 @@ if found:
 else:
     print('El número 7 no se encuentra en la lista de valores')
 
+# =========================================================================
 # Añadiendo la sentencia break al ejemplo anterior.
 values = [6, 3, 2, 7, 1, 23]
 
@@ -44,6 +47,7 @@ if found:
 else:
     print(f'El elemento 7 no se encuentra en la lisa de valores')
 
+# ===========================================================================
 # Another modification is:
 values = [6, 3, 2, 7, 1, 23]
 
