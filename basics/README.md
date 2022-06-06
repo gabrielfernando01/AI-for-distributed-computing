@@ -13,7 +13,7 @@ Python fue creado a finales de los años ochenta por Guido van Rossum en el Cent
 
 El nombre del lenguaje proviene de la afición de su creador por los humoristas británicos Monty Python.
 
-Python alcanzo la versión 1.0 en enero de 1994. Una característica de este lanzamiento fueron las herramientas de la programación funcional: <code>lambda</code>, <code>reduce</code> y <code>map</map>. Van Rossum explicó que \<\<hace 12 años, Python adquirió lambda, reduce(), filter() y map, cortesía de Amrit Perm, un hacker inforfático de Lisp que las implementó porque las extrañaba\>\>.
+Python alcanzo la versión 1.0 en enero de 1994. Una característica de este lanzamiento fueron las herramientas de la programación funcional: <code>lambda</code>, <code>reduce</code> y <code>map</code>. Van Rossum explicó que \<\<hace 12 años, Python adquirió lambda, reduce(), filter() y map, cortesía de Amrit Perm, un hacker inforfático de Lisp que las implementó porque las extrañaba\>\>.
 
 La útlima versión liberada proveniente de CWI fue Python 1.2. En 1995, van Rossum continuó su trabajo en Python en la Corporation for National Research Initiatives (CNRI) en Reston, Virginia, donde lanzó varias versiones del software.
 
@@ -21,41 +21,12 @@ La útlima versión liberada proveniente de CWI fue Python 1.2. En 1995, van Ros
 
 En este tutorial te comparto la siguiente lista de tópicos:
 
-- <a href="https://bsystems.com.mx/nosotros.html">Operadores en Python</a>
+- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/operators_in_python" target="_PLANK">Operadores en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/list_in_python" target="_PLANK">Listas en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python" target="_PLANK">Diccionarios en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python" target="_PLANK">if en Python</a>
+- <a hrer="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python" target="_PLANK">while en Python</a>
 
-
-
-
-
-
-# Python if - Sentencia if de control de flujo.
-
-## Pytho if - Sentencia básica
-
-La estructura básica de esta sentencia if es la siguiente:
-
-```
-if condicion:
-	bloque de código
-```
-
-Es decir, solo si la $condición$ se evalúa a $True$, se ejecutarán las sentencias que forman parte de $bloque de código$. En caso de que se evalúe a $False$ no se ejecutará ninguna sentencia perteneciente a $bloque de código$.
-
-***
-**¡Importante!:** El cuerpo del bloque está indicado con un sangrado mayor. Dicho bloque termina cuando se encuentre la primera línea con un sangrado menor.
-***
-
-***
-**¡RECUERDA!:** En principio, en Python todos los objetos/instancias se evalúan a True a excepción de None, False, 0 de todos los tipos numéricos y secuencias/colecciones vacías, que se evalúan a False.
-***
-
-## Sentencia if ... else.
-
-Hay ocasiones en que la sentencia if básica no es suficiente y es necesario ejecutar un conjunto o sentencias cuando la condición se evalúa a False.
-
-## if ... elif ... else
-
-Es posible que te encuentres en situaciones en que una decisión dependa de más de una condición. En este caso se usa una sentencia if compuesta.
 
 # While Python 
 
