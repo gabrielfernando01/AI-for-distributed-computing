@@ -2,9 +2,9 @@
 
 # Basics in Python
 
-Este pequeño tutorial pretende tocar algunos puntos para que te inicialices en este potente lenguaje. Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, ejemplos: Instagram, Netflix, Spotify, Panda 3D, entre otros. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, porgramación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinánico y multiplataforma.
+Este pequeño tutorial pretende tocar algunos puntos para que te inicialices en este potente lenguaje. Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, ejemplos: Instagram, Netflix, Spotify, Panda 3D, entre otros. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
 
-Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundtion License. Python se clasifica constantemente como uno de los lenguajes de programación más populares.
+Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License. Python se clasifica constantemente como uno de los lenguajes de programación más populares.
 
 ## Breve historia
 
@@ -13,7 +13,7 @@ Python fue creado a finales de los años ochenta por Guido van Rossum en el Cent
 
 El nombre del lenguaje proviene de la afición de su creador por los humoristas británicos Monty Python.
 
-Python alcanzo la versión 1.0 en enero de 1994. Una característica de este lanzamiento fueron las herramientas de la programación funcional: <code>lambda</code>, <code>reduce</code> y <code>map</code>. Van Rossum explicó que \<\<hace 12 años, Python adquirió lambda, reduce(), filter() y map, cortesía de Amrit Perm, un hacker inforfático de Lisp que las implementó porque las extrañaba\>\>.
+Python alcanzo la versión 1.0 en enero de 1994. Una característica de este lanzamiento fueron las herramientas de la programación funcional: <code>lambda</code>, <code>reduce</code> y <code>map</code>. Van Rossum explicó que «hace 12 años, Python adquirió lambda, reduce(), filter() y map, cortesía de Amrit Perm, un hacker informático de Lisp que las implementó porque las extrañaba».
 
 La útlima versión liberada proveniente de CWI fue Python 1.2. En 1995, van Rossum continuó su trabajo en Python en la Corporation for National Research Initiatives (CNRI) en Reston, Virginia, donde lanzó varias versiones del software.
 
@@ -26,17 +26,6 @@ En este tutorial te comparto la siguiente lista de tópicos:
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">Diccionarios en Python</a>
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/if_in_python">if en Python</a>
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">while en Python</a>
+- <a href="">for en Python</a>
 
 
-
-# for en Python
-
-El ciclo for se utiliza para recorrer los elementos de un objeto _iterable_ (lista, tupla, conjunto, diccionario,...) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cual se puede aplicar una serie de operaciones.
-
-## ¿Que es un iterable?
-
-Un _iterable_ es un objeto que permite recorrer sus elementos uno a uno. Para ser más técnico, un objeto iterable es aquél que puede pasarse como parámetro de la función iter().
-
-## Bucle for en diccionarios
-
-Un caso en especial de bucle for se da al recorrer los elementos de un diccionario. Dado que un diccionario está compuesto por pares clave/valor, hay distintas formas de iterar sobre ellas.
