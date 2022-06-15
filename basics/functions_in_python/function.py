@@ -6,7 +6,7 @@
 def product_by_5(number):
     print(f'{number} * 5 = {number * 5}')
 
-print('Start the programm')
+print('Start the program')
 product_by_5(11)
 print('Next')
 product_by_5(42)
@@ -50,14 +50,4 @@ def multiples_of(number):
 
 res = multiples_of(11)
 res
-
-
-
-
-
-
-
-
-
-
 
