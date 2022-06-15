@@ -74,21 +74,45 @@ Al igual que ocurre con el bucle <code>for</code>, podemos alterar el flujo de e
 Retomamos el ejemplo anterior modificado, añadiendo la sentencia <code>break</code>:
 
 ```
-valores = [5, 1, 9, 2, 7, 4]
+valores = [5, 4, 7, 0, 9, 2, 1]
 
 encontrado = False
 indice = 0
 longitud = len(valores)
 
 while indice < longitud:
-	valor = valores[indice]
-	if valor == 2:
-		encontrado = True
-		break
-	else:
-		indice += 1
+    valor = valores[indice]
+    if valor == 2:
+        encontrado = True
+        break
+    else:
+        indice += 1
 if encontrado:
-	print(f'El elemento 2 ha sido encontrado en el indice {indice}')
+    print(f'El elemento 2 ha sido encontrado en el indice {indice}')
 else:
-	print('El elemento 2 no se encuentra en la lista de valores')
+    print('El elemento 2 no se encuentra en la lista valores')
 ```
+
+El bucle <code>while</code> le podemos añadir la sentencia opcional <code>else</code>. El bloque de código del <code>else</code> se ejecutará siempre y cuando la condición de la sentencia while se evalúe a <code>False</code> y no se haya ejecutado una sentencia <code>break</code>.
+
+Continuando con el ejemplo anterior, lo podemos modificar del siguiente modo:
+
+```
+valores = [1, 4, 6, 2, 8, 2]
+
+indice = 0
+longitud = len(valores)
+
+while indice < longitud:
+    valor = valores[indice]
+    if valor == 2:
+        print(f'El elemento 2 ha sido encontrado en el indice {indice}')
+        break
+    else:
+        indice += 1
+else:
+    print('El elemento 2 no se encuentra en la lista de valores')
+```
+
+En este último ejemplo se dejo de usar la variable <code>encontrado</code>.
+
