@@ -27,7 +27,6 @@ En este tutorial te comparto la siguiente lista de tópicos:
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/if_in_python">if en Python</a>
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/while_in_python">while en Python</a>
 - <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/for_in_python">for en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/functions_in_python">function in Python</a>
-- Funciones lambda en Python. map(), filter() y reduce()
-
+- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/functions_in_python">funciones en Python</a>
+- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/lambda_map_filter_reduce">funciones lambda en Python. map(), filter(), reduce()</a>
 
