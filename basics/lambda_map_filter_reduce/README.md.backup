@@ -15,7 +15,7 @@ Una función en Python se define con la palabra reservada <code>def</code>. Sin 
 La sintaxis para definir una _función lambda_ es la siguiente:
 
 ```
-lambda parametros: expresion
+lambda parámetros: expresión
 ```
 
 Principales características de la _función anónima:_
@@ -60,3 +60,4 @@ La función <code>map()</code> en Python aplica una función a cada uno de los e
 map(una_funcion, una_lista)
 ```
 
+Imagina que tienes una lista de enteros y quieres obtener una nueva lista con el cuadrado de cada uno de ellos
