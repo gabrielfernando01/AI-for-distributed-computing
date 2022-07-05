@@ -28,7 +28,7 @@ Pero, ¿por qué es tan importante la programación orientada a objetos? Bien, e
 
 Básicamente, una clase es una entidad que define una serie de elementos que determinan un estado (datos) y un comportamiento (operaciones sobre los datos que modifican su estado).
 
-Por su parte, un objeto es una concreción o instancia de una clase.
+Por su parte, un objeto es una instancia de una clase.
 
 Pensemos en el siguiente ejemplo.
 
@@ -44,7 +44,7 @@ Para definir una clase en Python se utiliza la palabra reservada <code>class</co
 
 ![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/class.png)
 
-El esquema anterior define la clase <code>Coche</code> (es una versión muy, muy simplificada de lo que es un coche, jaja, pero nos sirve de ejemplo). Dicha clase establece una serie de datos, como <code>ruedas</code>, <code>color</code>, <code>aceleración</code> o <code>velocidad</code> y las operaciones <code>acelera()</code> y <code>frena()</code>.
+El esquema anterior define la clase <code>Coche</code> (es una versión muy, muy simplificada de lo que es un coche, pero nos sirve de ejemplo). Dicha clase establece una serie de datos, como <code>ruedas</code>, <code>color</code>, <code>aceleración</code> o <code>velocidad</code> y las operaciones <code>acelera()</code> y <code>frena()</code>.
 
 Cuando se crea una variable de tipo <code>Coche</code>, realmente se está instanciando un objeto de dicha clase. En el siguiente ejemplo se crean dos objetos de tipo <code>Coche</code>:
 
@@ -150,4 +150,4 @@ Los objetos <code>c1</code> y <code>c2</code> pueden referenciar al atributo <co
 
 ### Métodos
 
-Comó ya comentamos al comienzo de está sección, los métodos son las funciones que se definen dentro de una clase y que, por consiguiente, pueden ser referenciados por los objetos de dicha clase. Sin embargo, re
+Comó ya comentamos al comienzo de está sección, los métodos son las funciones que se definen dentro de una clase y que, por consiguiente, pueden ser referenciados por los objetos de dicha clase. Sin embargo, realmente los métodos son algo más.
