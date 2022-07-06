@@ -150,4 +150,74 @@ Los objetos <code>c1</code> y <code>c2</code> pueden referenciar al atributo <co
 
 ### Métodos
 
-Comó ya comentamos al comienzo de está sección, los métodos son las funciones que se definen dentro de una clase y que, por consiguiente, pueden ser referenciados por los objetos de dicha clase. Sin embargo, realmente los métodos son algo más.
+Como ya comentamos al comienzo de está sección, los métodos son las funciones que se definen dentro de una clase y que, por consiguiente, pueden ser referenciados por los objetos de dicha clase. Sin embargo, realmente los métodos son algo más.
+
+Como ya nos debimos de haber dado cuenta las funciones <code>acelera()</code> y <code>frena()</code> definen un parámetro <code>self</code>.
+
+```
+def acelera(self):
+    self.velocidad = self.velocidad + self.aceleracion
+```
+
+No obstante, cuando se usan dichas funciones no se pasa ningún argumento. ¿Qué está pasando? Pues que <code>acelera()</code> está siendo utilizada como un método por los objetos de la clase <code>Coche</code>, de tal manera que cuando un objeto referencia a dicha función, realmente pasa por su propia referencia como primer parámetro de la función.
+
+***
+**NOTA:** Por convención, se utiliza la palabra <code>self</code> para referenciar a la instancia actual en los métodos de una clase.
+***
+
+Sabiendo esto, podemos entender, por ejemplo, por qué todos los objetos de tipo <code>Coche</code> pueden referenciar a los atributos de datos <code>velocidad</code> o <code>color</color>. Son inicializados por cada objeto en el método <code>\_\_init\_\_</code>.
+
+Del mismo modo, el siguiente ejemplo muestra dos formas diferentes y equivalentes de llamar al método <code>acelera()</code>:
+
+```
+>>> c1 = Coche('rojo', 20)
+>>> c2 = Coche('azul', 20)
+>>> c1.acelera()
+>>> Coche.acelera(c2)
+>>> print(c1.velocidad)
+20
+>>> print(c2.velocidad)
+20
+```
+
+Para la clase <code>Coche</code>, <code>acelera()</code> es una función. Sin embargo, para los objetos de la clase <code>Coche</code>, <code>acelera()</code> es un método.
+
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/method.png)
+
+## Atributos de clase y atributos de instancia
+
+Una clase puede definir dos tipos diferentes de atributos de datos: atributos de clase y atributos de instancia.
+
+- Los atributos de clase son atributos compartidos por todas las instancias de esa clase.
+- Los atributos de instancia, por el contrario, son únicos para cada uno de los objetos pertenecientes a dicha clase.
+
+En el ejemplo de la clase <code>Coche</code>, <code>ruedas</code> se ha definido como un atributo de clase, mientras que <code>color</code>, <code>aceleracion</code> y <code>velocidad</code> son atributos de instancia.
+
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/atributos_clase.png)
+
+Si un objeto modifica a un atributo de clase, lo que realmente hace es crear un atributo de instancia con el mismo nombre que el atributo de clase.
+
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/modifica_atributo.png)
+
+## Herencia en Python
+
+En programación orientada a objetos, la herencia es la capacidad de reutilizar una clase extendiendo su funcionalidad. Una clase que hereda de otra puede añadir nuevos atributos, ocultarlos, añadir nuevos métodos o redefinirlos.
+
+En Python, podemos indicar que una clase hereda de otra de la siguiente manera:
+
+```
+class CocheVolador(Coche):
+
+    ruedas = 6
+
+    def __init__(self, color, aceleracion, esta_volando=False):
+        super().__init__(color, aceleracion)
+        self.esta_volando = esta_volando
+
+    def vuela(self):
+        self.esta_volando = True
+
+    def aterriza(self):
+        self.esta_volando = False
+```
+
