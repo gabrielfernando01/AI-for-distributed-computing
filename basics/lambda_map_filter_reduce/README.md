@@ -35,7 +35,7 @@ En el ejemplo anerior, <code>x</code> es el parámetro y <code>x ** 2</code> la 
 
 La función no tiene nombre y toda la definición devuelve una función que se asigna al identificador <code>cuadrado</code>.
 
-En el siguiente ejemplo se aprecian las similitudes y diferencias de usar una _función anónima_ de una función típica:
+En el siguiente ejemplo se aprecian las similitudes y diferencias de usar una _función anónima_ de una función normal:
 
 ```
 >>> def cuadrado(x):
@@ -61,3 +61,9 @@ map(una_funcion, una_lista)
 ```
 
 Imagina que tienes una lista de enteros y quieres obtener una nueva lista con el cuadrado de cada uno de ellos.
+
+Lo primero que podemos intentar es algo similar a lo siguiente:
+
+```
+
+```

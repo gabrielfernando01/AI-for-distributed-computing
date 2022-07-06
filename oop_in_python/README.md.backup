@@ -221,3 +221,19 @@ class CocheVolador(Coche):
         self.esta_volando = False
 ```
 
+Como puedes observar, la clase <code>CocheVolador</code> hereda de la clase <code>Coche</code>. En Python, el nombre de la clase padre se indica entre paréntesis a continuación del nombre de la clase hija.
+
+La clase <code>CocheVolador</code> redefine el atributo de la clase <code>ruedas</code>, estableciendo su valor a <code>6</code> e implementa dos métodos nuevos: <code>vuela()</code> y <code>aterriza()</code>.
+
+Veamos ahora en la primera línea del método <code>\_\_init()\_\_</code>. En ella aparece la función <code>super()</code>. Esta función devuelve un objeto temporal de la superclase que permite invocar a los métodos definidos en la misma. Lo que está ocurriendo es que se está redefiniendo el método <code>\_\_init\_\_()</code> de la clase hija usando la funcionalidad del método de la clase padre. Como la clase <code>Coche</code> es la que define los atributos <code>color</code> y <code>aceleracion</code>, estos se pasan al constructor de la clase padre y, a continuación, se crea el atributo de instancia <code>esta_volando</code> solo para objetos de la clase <code>CocheVolador</code>.
+
+Al utilizar la herencia, todos los atributos (atributos de datos y métodos) de la clase padre también puede ser referenciados por objetos de las clases hijas. Al revés no ocurre lo mismo.
+
+Veamos todo esto con un ejemplo:
+
+![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/herencia.png)
+
+***
+**NOTA:** Cuando no se indica, toda clase Python hereda implícitamente de la clase <code>object</code>, de tal modo que <code>class MiClase</code> es lo mismo que <code>class MiClase(object)</code>.
+***
+

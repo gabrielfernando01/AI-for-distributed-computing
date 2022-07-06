@@ -8,7 +8,8 @@ class Coche:
         self.aceleracion = aceleracion
         self.velocidad = 0
 
-    def acelera(self)        self.velocidad = self.velocidad + self.aceleracion
+    def acelera(self):        
+        self.velocidad = self.velocidad + self.aceleracion
 
     def frena(self):
         v = self.velocidad - self.aceleracion
