@@ -1,12 +1,12 @@
-![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/header_basics.png)
+![](https://raw.githubusercontent.com/gabrielfernando01/AI-for-distributed-computing/master/image/header_basics.png)
 
-# Basics in Python
+# Basics in Python 🐍.
 
 Este pequeño tutorial pretende tocar algunos puntos para que te inicialices en este potente lenguaje. Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, ejemplos: Instagram, Netflix, Spotify, Panda 3D, entre otros. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
 
 Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License. Python se clasifica constantemente como uno de los lenguajes de programación más populares.
 
-## Breve historia
+## Breve historia 📜.
 
 <img align='right' src="https://serespensantes.com/wp-content/uploads/2019/04/guido-van-rossum.jpg" width="230">
 Python fue creado a finales de los años ochenta por Guido van Rossum en el Centro para las Matemáticas y la informática, en los Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba.
@@ -21,12 +21,12 @@ La útlima versión liberada proveniente de CWI fue Python 1.2. En 1995, van Ros
 
 En este tutorial te comparto la siguiente lista de tópicos:
 
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/operators_in_python">Operadores en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/list_in_python">Listas en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/dict_in_python">Diccionarios en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/if_in_python">if en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/while_in_python">while en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/for_in_python">for en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/functions_in_python">funciones en Python</a>
-- <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics/lambda_map_filter_reduce">funciones lambda en Python. map(), filter(), reduce()</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/operators_in_python">Operadores en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/list_in_python">Listas en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/dict_in_python">Diccionarios en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/if_in_python">if en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/while_in_python">while en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/for_in_python">for en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/functions_in_python">funciones en Python</a>
+- <a href="https://github.com/gabrielfernando01/AI-for-distributed-computing/tree/master/basics_python/lambda_map_filter_reduce">funciones lambda en Python. map(), filter(), reduce()</a>
 

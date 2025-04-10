@@ -1,12 +1,58 @@
-![](https://raw.githubusercontent.com/gabrielfernando01/basics_in_python/master/image/header_python.png)
+![](https://raw.githubusercontent.com/gabrielfernando01/AI-for-distributed-computing/master/image/ai_cover.png)
 
-# Conceptos básicos en Python
+## 🔧 Conocimientos de AI para computo distribuido.
 
-Este repositorio no es un proyecto como tal, es un tutorial para referenciar las estructuras básicas para programar en python, contiene una carpeta llamada real python donde te comparto ejemplos de la página, el link es el siguiente:
+### 🧠 Fundamentos prácticos:
 
-<img align='right' src=https://files.realpython.com/media/real-python-logo-square.28474fda9228.png width="230">
++ Qué es un modelo supervisado / no supervisado.
++ Overfitting, regularización, validación cruzada.
++ Evaluación: accuracy, F1-score, ROC-AUC, etc.
++ Embeddings, vectores de características.
++ Transfer learning (usar modelos preentrenados).
 
-<p><em>Link: <a href="https://realpython.com/">Real Python</a></br>
-</em></p>
+***
 
-La carpeta _basics_ contiene ficheros cortos con bloques de código sencillos para aprender los principales _operadores booleanos y de comparación,_ así como las principales _sentencias de control_ en Python.
+## ⚙️ Herramientas y frameworks clave.
+
+### 📌 Lo mínimo que deberías dominar:
+
+![](https://raw.githubusercontent.com/gabrielfernando01/AI-for-distributed-computing/master/image/table_frameworks.png)
+
+***
+
+## 🤖 3. Modelos y técnicas actuales más útiles.
+
+Aprende solo los más aplicables a procesamiento distribuido:
+
++ **NLP (Procesamiento de texto)**: BERT, DistilBERT, GPT (ya empaquetados).
++ **Computer Vision**: modelos ResNet, segmentación, clasificación.
++ **Recomendadores**: ALS en Spark MLlib o embeddings.
++ **Modelos de series de tiempo**: Prophet, LSTM (pero puedes integrar con Spark para escalar).
+
+Lo clave es: saber **cómo aplicar modelos ya entrenados** sobre datos grandes.
+
+***
+
+## 🔌 Cómo conectar IA y Cómputo Distribuido (Scala + Spark).
+
+Aquí una arquitectura ejemplo:
+
+```
+[1] Ingesta de datos (Kafka/S3/HDFS)
+     ↓
+[2] Preprocesamiento distribuido (Spark + Scala)
+     ↓
+[3] Aplicación de modelo (Spark MLlib o llamado a modelo HF/TF exportado)
+     ↓
+[4] Almacenamiento (S3 / Redshift / ElasticSearch)
+     ↓
+[5] Dashboard / API / MLflow monitoring
+```
+***
+
+## 🛠️ Siguiente paso recomendado.
+
+Construir proyecto
+
+
+
